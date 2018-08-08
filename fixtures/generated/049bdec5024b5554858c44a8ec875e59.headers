@@ -1,0 +1,39 @@
+{
+  "statusCode": 200,
+  "headers": {
+    "server": "GitHub.com",
+    "date": "Tue, 07 Aug 2018 21:04:30 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "198726",
+    "status": "200 OK",
+    "x-ratelimit-limit": "5000",
+    "x-ratelimit-remaining": "4999",
+    "x-ratelimit-reset": "1533679470",
+    "cache-control": "private, max-age=60, s-maxage=60",
+    "vary": "Accept, Authorization, Cookie, X-GitHub-OTP",
+    "etag": "\"c9af8485d5247bb1d550de628cb33c93\"",
+    "x-oauth-scopes": "admin:org, repo",
+    "x-accepted-oauth-scopes": "",
+    "x-github-media-type": "github.mockingbird-preview",
+    "access-control-expose-headers": "ETag, Link, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval",
+    "access-control-allow-origin": "*",
+    "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+    "x-frame-options": "deny",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+    "content-security-policy": "default-src 'none'",
+    "x-runtime-rack": "0.289936",
+    "x-github-request-id": "D7E5:1AC9:144BAA4:2EFE204:5B6A095D"
+  },
+  "url": "https://api.github.com/orgs/groundbreaker/issues?state=all&per_page=100",
+  "time": 842,
+  "request": {
+    "method": "get",
+    "headers": {
+      "Accept": "application/vnd.github.mockingbird-preview",
+      "Authorization": "token 5ca1ab1e0ddba11",
+      "User-Agent": "axios/0.18.0"
+    }
+  }
+}

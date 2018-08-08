@@ -1,0 +1,31 @@
+{
+  "name": "github-cycle-time",
+  "version": "0.0.1",
+  "description": "Calculates Reaction/Lead/Cycle Time metrics from your GitHub issues.",
+  "keywords": [
+    "github",
+    "cycle time",
+    "team metrics",
+    "reaction time",
+    "lead time"
+  ],
+  "author": "GroundBreaker Engineering Team <eng@groundbreaker.co>",
+  "homepage": "https://github.com/groundbreaker/github-cycle-time",
+  "bugs": "https://github.com/groundbreaker/github-cycle-time/issues",
+  "repository": "github:groundbreaker/github-cycle-time",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "VCR_MODE=playback tape *.test.js | tap-spec"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "blue-tape": "^1.0.0",
+    "sepia": "^2.0.2",
+    "tap-spec": "^5.0.0"
+  }
+}
