@@ -1,5 +1,4 @@
-@groundbreaker/github-cycle-time
-================================
+# @groundbreaker/github-cycle-time [![Build Status](https://travis-ci.org/groundbreaker/github-cycle-time.svg?branch=master)](https://travis-ci.org/groundbreaker/github-cycle-time)
 
 Calculates Reaction/Lead/Cycle Time from your Organization's GitHub issues.
 

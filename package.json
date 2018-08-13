@@ -1,6 +1,6 @@
 {
   "name": "@groundbreaker/github-cycle-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculates Reaction/Lead/Cycle Time metrics from your GitHub issues.",
   "keywords": [
     "github",
