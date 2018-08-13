@@ -1,5 +1,5 @@
 {
-  "name": "github-cycle-time",
+  "name": "@groundbreaker/github-cycle-time",
   "version": "0.0.1",
   "description": "Calculates Reaction/Lead/Cycle Time metrics from your GitHub issues.",
   "keywords": [
@@ -15,17 +15,25 @@
   "repository": "github:groundbreaker/github-cycle-time",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
-    "test": "VCR_MODE=playback tape *.test.js | tap-spec"
+    "test": "tape *.test.js | tap-spec"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "@octokit/rest": "^15.9.5",
+    "abstract-blob-store": "^3.3.4",
     "bluebird": "^3.5.1",
-    "moment": "^2.22.2"
+    "defaults": "^1.0.3",
+    "json-parse-stream": "^0.0.2",
+    "mathjs": "^5.0.4",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2"
   },
   "devDependencies": {
-    "blue-tape": "^1.0.0",
-    "sepia": "^2.0.2",
-    "tap-spec": "^5.0.0"
+    "fs-blob-store": "^5.2.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
   }
 }
