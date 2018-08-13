@@ -29,7 +29,7 @@ service = new CycleTime({ org: process.env.GITHUB_ORG, token: process.env.GITHUB
   - `org` (string) - Github Organization name. **Required**
   - `token` (string) - Github Personal Access Token. **Required**
   - `baseUrl` (string) - Github API Base URL. Defaults to `https://api.github.com`. __Optional__
-  - `cache` (blob-store) - An object that implements the `[abstract-blob-store](https://github.com/maxogden/abstract-blob-store)` API. Defaults to `MemBlobs`, an in-memory reference implementation that ships with `abstract-blob-store`. You will get better results with `[fs-blob-store](https://github.com/mafintosh/fs-blob-store)`, `[s3-blob-store](https://github.com/jb55/s3-blob-store)`, or one of the [other blob-store implementations](https://github.com/maxogden/abstract-blob-store#some-modules-that-use-this).
+  - `cache` (blob-store) - An object that implements the [`abstract-blob-store`](https://github.com/maxogden/abstract-blob-store) API. Defaults to `MemBlobs`, an in-memory reference implementation that ships with `abstract-blob-store`. You will get better results with [`fs-blob-store`](https://github.com/mafintosh/fs-blob-store), [`s3-blob-store`](https://github.com/jb55/s3-blob-store), or one of the [other blob-store implementations](https://github.com/maxogden/abstract-blob-store#some-modules-that-use-this).
 
 ---
 
